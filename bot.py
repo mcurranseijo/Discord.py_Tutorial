@@ -18,7 +18,7 @@ async def on_ready():  # When the bot is ready
 Each time you add a final cog you should add it here so it will autload on restart. For testing you can use the load cog command."""
 
 extensions = [
-	'cogs.example','cogs,loaders'  # Same name as it would be if you were importing it
+	'cogs.example','cogs.loaders'  # Same name as it would be if you were importing it
 ]
 
 """You won't need to touch this, this just makes sure this is the proper file""" 
